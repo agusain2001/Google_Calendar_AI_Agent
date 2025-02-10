@@ -1,0 +1,8 @@
+flask
+google-api-python-client
+google-auth-oauthlib
+python-dateutil
+google-generativeai
+scikit-learn
+joblib
+python-dotenv
