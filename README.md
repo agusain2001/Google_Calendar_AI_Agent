@@ -50,7 +50,7 @@ Ensure you have **Python 3.8+** installed on your system.
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-repo/google-calendar-ai-agent.git
+git clone https://github.com/agusain2001/Google_Calendar_AI_Agent.git
 cd google-calendar-ai-agent
 ```
 
