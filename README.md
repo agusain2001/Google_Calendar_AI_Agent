@@ -186,30 +186,6 @@ Run unit tests to verify functionality:
 ```bash
 pytest tests/
 ```
-
----
-
-## Deployment
-### Running on a Production Server
-```bash
-gunicorn -w 4 -b 0.0.0.0:5000 app:app
-```
-
-### Deploying to Docker
-Create a `Dockerfile`:
-```
-FROM python:3.8
-WORKDIR /app
-COPY . .
-RUN pip install -r requirements.txt
-CMD ["python", "app.py"]
-```
-Build and run:
-```bash
-docker build -t google-calendar-ai-agent .
-docker run -p 5000:5000 google-calendar-ai-agent
-```
-
 ---
 
 ## Future Enhancements
